@@ -1,83 +1,70 @@
 # 📊 Data Science Portfolio — Gutemberg Rapôso
 
-![Currently Learning](https://img.shields.io/badge/🔬_Currently_Learning-Pandas_Fundamentals-blue?style=for-the-badge)
-![Open to Remote](https://img.shields.io/badge/🌐_Open_to-Remote_Opportunities-success?style=for-the-badge)
+[![Currently Learning](https://img.shields.io/badge/🔬_Currently_Learning-NumPy_Fundamentals-blue)](./01_python_basics/)
+[![Open to Work](https://img.shields.io/badge/💼_Open_to-Remote_Opportunities-green)](https://github.com/Gutembergfox)
+[![Junior → Senior](https://img.shields.io/badge/Level-Junior_→_Senior_Data_Scientist-orange)](https://github.com/Gutembergfox)
 
-> **Jornada Cientista de Dados Júnior → Sênior** | **Aberto a Oportunidades Remotas** | **Linguística + Ciência de Dados + PLN aplicado à educação**
+## 👋 About Me
 
-Olá! 👋 Sou o **Gutemberg Rapôso**, de Palmas-TO (Brasil). Venho da área de **Linguística/Sociolinguística** e estou construindo, dia após dia, uma carreira sólida em **Ciência de Dados**, com foco especial em **Processamento de Linguagem Natural (PLN)** aplicado à **educação** e ao **ensino de inglês**.
+Data Scientist with a unique background in **Linguistics & Sociolinguistics**, specializing in **NLP applied to education and English language teaching**. Currently on a structured 210-day journey from Junior to Senior Data Scientist, building a comprehensive portfolio with real datasets and production-ready code.
 
-Este repositório documenta minha jornada de estudos de forma pública e organizada — um notebook por dia, com anotações de aprendizado em português e código em inglês.
+📍 Palmas-TO, Brazil | 🌐 Open to Remote Opportunities Worldwide
 
----
+## 🎯 Unique Value Proposition
 
-## 📈 Progresso por Fase
+> **Linguistics + Data Science + NLP for Education** — A rare combination that enables deep understanding of language data, educational corpora, and human-centered AI applications.
 
-| # | Fase | Pasta | Dias Concluídos |
-|---|------|-------|:---------------:|
-| 1 | 🐍 Python Básico | [`01_python_basics/`](01_python_basics/) | **1/28** |
-| 2 | 🔎 Análise Exploratória (EDA) | [`02_eda/`](02_eda/) | 0/28 |
-| 3 | 📐 Estatística | [`03_statistics/`](03_statistics/) | 0/28 |
-| 4 | 🤖 Machine Learning | [`04_machine_learning/`](04_machine_learning/) | 0/28 |
-| 5 | 🚀 Machine Learning Avançado | [`05_advanced_ml/`](05_advanced_ml/) | 0/28 |
-| 6 | 🗣️ PLN & Séries Temporais | [`06_nlp_timeseries/`](06_nlp_timeseries/) | 0/28 |
-| 7 | 🏆 Projetos Avançados | [`07_advanced_projects/`](07_advanced_projects/) | 0/28 |
+## 📈 Progress Tracker
 
----
+| Phase | Topic | Days | Status | Notebooks |
+|-------|-------|------|--------|-----------|
+| Phase 1 | Python Basics | 1-28 | 🟡 In Progress (Day 2/28) | 2 |
+| Phase 2 | Exploratory Data Analysis | 29-56 | ⬜ Upcoming | 0 |
+| Phase 3 | Statistics | 57-84 | ⬜ Upcoming | 0 |
+| Phase 4 | Machine Learning | 85-126 | ⬜ Upcoming | 0 |
+| Phase 5 | Advanced ML | 127-168 | ⬜ Upcoming | 0 |
+| Phase 6 | NLP & Time Series | 169-210 | ⬜ Upcoming | 0 |
+| Phase 7 | Advanced Projects | 211+ | ⬜ Upcoming | 0 |
 
-## 📓 Notebooks Recentes
+**Overall Progress:** 2/210 days | 0.95% complete
 
-- **[2026-09-04 — Fundamentos de Pandas](01_python_basics/2026-09-04_pandas_fundamentals.ipynb)**
-  Criação, inspeção, seleção e filtragem de DataFrames; ordenação, agregação com `groupby` e tratamento de valores ausentes — usando os datasets reais `iris` e `tips` do seaborn, com um exemplo pedagógico aplicado ao vocabulário de inglês.
+## 📚 5 Most Recent Notebooks
 
----
+| Date | Notebook | Phase | Topic |
+|------|----------|-------|-------|
+| 2026-09-18 | [NumPy Fundamentals](./01_python_basics/2026-09-18_numpy_fundamentals.ipynb) | Phase 1 | Arrays, broadcasting, linear algebra |
+| 2026-09-04 | [Pandas Fundamentals](./01_python_basics/2026-09-04_pandas_fundamentals.ipynb) | Phase 1 | DataFrame creation, filtering, groupby |
 
-## 🗂️ Pastas Temáticas
+## 📁 Repository Structure
 
-| Pasta | Descrição |
-|-------|-----------|
-| [`01_python_basics/`](01_python_basics/) | Fundamentos de Python e Pandas para Ciência de Dados |
-| [`02_eda/`](02_eda/) | Análise Exploratória de Dados e visualização |
-| [`03_statistics/`](03_statistics/) | Estatística descritiva e inferencial |
-| [`04_machine_learning/`](04_machine_learning/) | Modelos supervisionados e não supervisionados |
-| [`05_advanced_ml/`](05_advanced_ml/) | Ensembles, tuning e deep learning |
-| [`06_nlp_timeseries/`](06_nlp_timeseries/) | Processamento de Linguagem Natural e séries temporais |
-| [`07_advanced_projects/`](07_advanced_projects/) | Projetos completos de ponta a ponta |
+| Folder | Phase | Topics |
+|--------|-------|--------|
+| [01_python_basics/](./01_python_basics/) | Phase 1 | Python, NumPy, Pandas, Matplotlib |
+| [02_eda/](./02_eda/) | Phase 2 | Exploratory Data Analysis, Visualization |
+| [03_statistics/](./03_statistics/) | Phase 3 | Probability, Hypothesis Testing, Distributions |
+| [04_machine_learning/](./04_machine_learning/) | Phase 4 | Supervised & Unsupervised Learning |
+| [05_advanced_ml/](./05_advanced_ml/) | Phase 5 | Ensemble Methods, Feature Engineering |
+| [06_nlp_timeseries/](./06_nlp_timeseries/) | Phase 6 | NLP, Text Processing, Time Series |
+| [07_advanced_projects/](./07_advanced_projects/) | Phase 7 | End-to-End Projects, Deployment |
 
----
+## 🔬 Background: Linguistics × Data Science
 
-## 🎓 Formação Diferenciada
+My background in **Linguistics and Sociolinguistics** gives me a unique perspective on:
+- **Text data preprocessing** — understanding morphology, syntax, and semantics beyond tokenization
+- **Educational NLP** — building tools for language learning and teaching
+- **Corpus analysis** — applying statistical methods to language corpora
+- **Human-centered AI** — designing NLP systems that respect linguistic diversity
 
-Minha trajetória une duas áreas que se complementam de forma poderosa:
+## 🛠️ Tech Stack
 
-- **Linguística & Sociolinguística** — formação sólida na análise de estruturas da língua, variação linguística e análise de *corpora* (grandes conjuntos de textos).
-- **Ciência de Dados** — programação, estatística e *machine learning* para extrair conhecimento a partir de dados.
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
+![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat&logo=numpy&logoColor=white)
+![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat&logo=pandas&logoColor=white)
+![Scikit-learn](https://img.shields.io/badge/Scikit--learn-F7931E?style=flat&logo=scikit-learn&logoColor=white)
+![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=flat&logo=jupyter&logoColor=white)
 
-Essa combinação é uma vantagem natural para o **PLN (Processamento de Linguagem Natural)**: entender *como* a linguagem funciona torna muito mais rica a modelagem de dados textuais. Meu objetivo é aplicar essas competências à **educação** e ao **ensino de inglês**, criando ferramentas inteligentes que ajudem professores e aprendizes.
+## 📬 Contact
 
----
-
-## 🌐 Aberto a Oportunidades Remotas
-
-Estou em busca de oportunidades **remotas** em Ciência de Dados, Machine Learning e PLN. Competências que venho desenvolvendo:
-
-- **Linguagens:** Python, SQL
-- **Manipulação de dados:** Pandas, NumPy
-- **Visualização:** Matplotlib, Seaborn
-- **Machine Learning:** Scikit-learn *(em progresso)*
-- **PLN / NLP:** análise de texto, análise de *corpora*, embeddings *(em progresso)*
-- **Ferramentas:** Git, GitHub, Jupyter Notebook
-- **Idiomas:** Português (nativo), Inglês (avançado)
-
----
-
-## 📬 Contato
-
-- **GitHub:** [@Gutembergfox](https://github.com/Gutembergfox)
-- **Localização:** Palmas — TO, Brasil 🇧🇷
-
----
-
-<p align="center">
-  <em>“Um notebook por dia — transformando linguagem e dados em conhecimento.”</em>
-</p>
+- 📧 gtmbrgfox@gmail.com
+- 🐙 [GitHub](https://github.com/Gutembergfox)
+- 📍 Palmas-TO, Brazil | Open to Remote Work
