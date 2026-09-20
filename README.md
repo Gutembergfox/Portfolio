@@ -1,6 +1,6 @@
 # 📊 Portfólio de Data Science — Gutemberg Rapôso
 
-[![Currently Learning](https://img.shields.io/badge/🔬_Currently_Learning-Data_Visualization_with_Matplotlib_&_Seaborn-blue)](./01_python_basics/)
+[![Currently Learning](https://img.shields.io/badge/🔬_Currently_Learning-Python_Functions_%26_Comprehensions-blue)](./01_python_basics/)
 [![Open to Work](https://img.shields.io/badge/💼_Open_to-Remote_Opportunities-green)](https://github.com/Gutembergfox)
 [![Junior → Senior](https://img.shields.io/badge/Positioning-Junior_→_Senior_Data_Scientist-orange)](https://github.com/Gutembergfox)
 
@@ -22,7 +22,7 @@ reais e código pronto para produção.
 
 | Fase | Tema | Dias | Status | Dias Concluídos |
 |------|------|------|--------|-----------------|
-| Fase 1 | Python Basics | 1-28 | 🟡 Em andamento | **3** |
+| Fase 1 | Python Basics | 1-28 | 🟡 Em andamento | **4/28** |
 | Fase 2 | Análise Exploratória (EDA) | 29-56 | ⬜ A iniciar | 0 |
 | Fase 3 | Estatística | 57-84 | ⬜ A iniciar | 0 |
 | Fase 4 | Machine Learning | 85-126 | ⬜ A iniciar | 0 |
@@ -30,13 +30,14 @@ reais e código pronto para produção.
 | Fase 6 | PLN & Séries Temporais | 169-210 | ⬜ A iniciar | 0 |
 | Fase 7 | Projetos Avançados | 211+ | ⬜ A iniciar | 0 |
 
-**Progresso geral:** 3 dias concluídos 🚀
+**Progresso geral:** 4 dias concluídos 🚀
 
 ## 📚 5 Notebooks Mais Recentes
 
-1. [Dia 3 — Matplotlib & Seaborn](01_python_basics/2026-09-19_matplotlib_seaborn.ipynb) — Visualização de dados: figuras, gráficos estatísticos e customização
-2. [Dia 2 — NumPy Fundamentals](01_python_basics/2026-09-18_numpy_fundamentals.ipynb) — Arrays, broadcasting e álgebra linear
-3. [Dia 1 — Pandas Fundamentals](01_python_basics/2026-09-04_pandas_fundamentals.ipynb) — Criação de DataFrames, filtragem e groupby
+1. [Dia 4 — Funções & Comprehensions](01_python_basics/2026-09-20_python_functions_comprehensions.ipynb) — Lambda, map/filter/reduce, comprehensions, generators, `functools` e PLN aplicado a texto
+2. [Dia 3 — Matplotlib & Seaborn](01_python_basics/2026-09-19_matplotlib_seaborn.ipynb) — Visualização de dados: figuras, gráficos estatísticos e customização
+3. [Dia 2 — NumPy Fundamentals](01_python_basics/2026-09-18_numpy_fundamentals.ipynb) — Arrays, broadcasting e álgebra linear
+4. [Dia 1 — Pandas Fundamentals](01_python_basics/2026-09-04_pandas_fundamentals.ipynb) — Criação de DataFrames, filtragem e groupby
 
 ## 📁 Estrutura do Repositório
 
