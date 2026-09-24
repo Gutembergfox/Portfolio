@@ -1,8 +1,9 @@
 # Classificação experimental de textos por rótulos MBTI
 
 Implementação própria da proposta 1 do curso Pro da Mentorama. O programa aprende
-associações entre textos e rótulos fornecidos no conjunto `mbti_1.csv`. Esses
-rótulos são **autodeclarações**, não diagnósticos. O resultado não mede personalidade
+associações entre textos e rótulos fornecidos no conjunto `mbti_1.csv`. A forma
+como os rótulos foram obtidos precisa ser verificada na documentação da base.
+O resultado não mede personalidade
 e não serve para decisões de contratação, educação ou saúde.
 
 ## Dados e execução
