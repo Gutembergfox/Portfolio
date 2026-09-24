@@ -19,6 +19,9 @@ jobs:
           python-version: "3.12"
       - name: Install dependencies
         run: python -m pip install -r mentorama_portfolio/01_mbti_text_classifier/requirements.txt
-      - name: Test project
+      - name: Test MBTI project
         working-directory: mentorama_portfolio/01_mbti_text_classifier
+        run: python -m unittest discover -s tests -v
+      - name: Test news project
+        working-directory: mentorama_portfolio/03_news_classifier
         run: python -m unittest discover -s tests -v
