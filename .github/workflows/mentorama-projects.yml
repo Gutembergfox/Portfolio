@@ -1,0 +1,27 @@
+name: Mentorama projects
+on:
+  pull_request:
+    paths:
+      - "mentorama_portfolio/**"
+      - ".github/workflows/mentorama-projects.yml"
+  push:
+    branches: [master]
+    paths:
+      - "mentorama_portfolio/**"
+      - ".github/workflows/mentorama-projects.yml"
+jobs:
+  unit-tests:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install dependencies
+        run: python -m pip install -r mentorama_portfolio/01_mbti_text_classifier/requirements.txt
+      - name: Test MBTI project
+        working-directory: mentorama_portfolio/01_mbti_text_classifier
+        run: python -m unittest discover -s tests -v
+      - name: Test news project
+        working-directory: mentorama_portfolio/03_news_classifier
+        run: python -m unittest discover -s tests -v
