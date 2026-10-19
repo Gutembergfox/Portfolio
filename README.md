@@ -1,6 +1,6 @@
 # 📊 Portfólio de Data Science — Gutemberg Rapôso
 
-[![Currently Learning](https://img.shields.io/badge/🔬_Currently_Learning-String_Manipulation_%26_Regex_for_NLP-blue)](./01_python_basics/)
+[![Currently Learning](https://img.shields.io/badge/🔬_Currently_Learning-File_I%2FO_with_Pandas_%28CSV%2C_JSON%2C_Excel%29-blue)](./01_python_basics/)
 [![Open to Work](https://img.shields.io/badge/💼_Open_to-Remote_Opportunities-green)](https://github.com/Gutembergfox)
 [![Junior → Senior](https://img.shields.io/badge/Positioning-Junior_→_Senior_Data_Scientist-orange)](https://github.com/Gutembergfox)
 
@@ -22,7 +22,7 @@ reais e código pronto para produção.
 
 | Fase | Tema | Dias | Status | Dias Concluídos |
 |------|------|------|--------|-----------------|
-| Fase 1 | Python Basics | 1-28 | 🟡 Em andamento | **5/28** |
+| Fase 1 | Python Basics | 1-28 | 🟡 Em andamento | **6/28** |
 | Fase 2 | Análise Exploratória (EDA) | 29-56 | ⬜ A iniciar | 0 |
 | Fase 3 | Estatística | 57-84 | ⬜ A iniciar | 0 |
 | Fase 4 | Machine Learning | 85-126 | ⬜ A iniciar | 0 |
@@ -30,21 +30,21 @@ reais e código pronto para produção.
 | Fase 6 | PLN & Séries Temporais | 169-210 | ⬜ A iniciar | 0 |
 | Fase 7 | Projetos Avançados | 211+ | ⬜ A iniciar | 0 |
 
-**Progresso geral:** 5 dias concluídos 🚀 · 🔬 *Currently Learning: String Manipulation & Regex for NLP*
+**Progresso geral:** 6 dias concluídos 🚀 · 🔬 *Currently Learning: File I/O with Pandas (CSV, JSON, Excel)*
 
 ## 📚 5 Notebooks Mais Recentes
 
-1. [Dia 5 — String Manipulation & Regex para PLN](01_python_basics/2026-10-18_string_manipulation_regex.ipynb) — Métodos de string, módulo `re` (grupos nomeados, lookarounds), `pandas .str` e análise de um corpus de frases de inglês CEFR A1–C2
-2. [Dia 4 — Funções & Comprehensions](01_python_basics/2026-09-20_python_functions_comprehensions.ipynb) — Lambda, map/filter/reduce, comprehensions, generators, `functools` e PLN aplicado a texto
-3. [Dia 3 — Matplotlib & Seaborn](01_python_basics/2026-09-19_matplotlib_seaborn.ipynb) — Visualização de dados: figuras, gráficos estatísticos e customização
-4. [Dia 2 — NumPy Fundamentals](01_python_basics/2026-09-18_numpy_fundamentals.ipynb) — Arrays, broadcasting e álgebra linear
-5. [Dia 1 — Pandas Fundamentals](01_python_basics/2026-09-04_pandas_fundamentals.ipynb) — Criação de DataFrames, filtragem e groupby
+1. [Dia 6 — File I/O com Pandas (CSV, JSON, Excel)](01_python_basics/2026-10-19_file_io_pandas.ipynb) — `read_csv`/`to_csv`, JSON aninhado com `pd.json_normalize`, Excel multi-abas com `openpyxl`, encoding, `dtype`, `chunksize` e mini pipeline ETL multi-formato
+2. [Dia 5 — String Manipulation & Regex para PLN](01_python_basics/2026-10-18_string_manipulation_regex.ipynb) — Métodos de string, módulo `re` (grupos nomeados, lookarounds), `pandas .str` e análise de um corpus de frases de inglês CEFR A1–C2
+3. [Dia 4 — Funções & Comprehensions](01_python_basics/2026-09-20_python_functions_comprehensions.ipynb) — Lambda, map/filter/reduce, comprehensions, generators, `functools` e PLN aplicado a texto
+4. [Dia 3 — Matplotlib & Seaborn](01_python_basics/2026-09-19_matplotlib_seaborn.ipynb) — Visualização de dados: figuras, gráficos estatísticos e customização
+5. [Dia 2 — NumPy Fundamentals](01_python_basics/2026-09-18_numpy_fundamentals.ipynb) — Arrays, broadcasting e álgebra linear
 
 ## 📁 Estrutura do Repositório
 
 | Pasta | Fase | Tópicos |
 |-------|------|---------|
-| [01_python_basics/](./01_python_basics/) | Fase 1 | Python, NumPy, Pandas, Matplotlib & Seaborn, Strings & Regex |
+| [01_python_basics/](./01_python_basics/) | Fase 1 | Python, NumPy, Pandas, Matplotlib & Seaborn, Strings & Regex, File I/O |
 | [02_eda/](./02_eda/) | Fase 2 | Análise Exploratória de Dados, Visualização |
 | [03_statistics/](./03_statistics/) | Fase 3 | Probabilidade, Testes de Hipótese, Distribuições |
 | [04_machine_learning/](./04_machine_learning/) | Fase 4 | Aprendizado Supervisionado & Não Supervisionado |
@@ -61,6 +61,8 @@ Minha formação em **Linguística e Sociolinguística** me dá uma perspectiva 
 - **PLN Educacional** — construir ferramentas para aprendizagem e ensino de línguas.
 - **Análise de corpora** — aplicar métodos estatísticos a corpora linguísticos (ex.: complexidade
   textual e padrões gramaticais por nível CEFR, no [Dia 5](01_python_basics/2026-10-18_string_manipulation_regex.ipynb)).
+- **Ingestão de dados educacionais** — corpora em JSON Lines, planilhas de professores e encoding
+  correto para textos acentuados (ex.: pipeline ETL multi-formato no [Dia 6](01_python_basics/2026-10-19_file_io_pandas.ipynb)).
 - **IA centrada no humano** — projetar sistemas de PLN que respeitam a diversidade linguística.
 
 Essa combinação de **Linguística + Data Science + PLN aplicado à educação** é o fio condutor que
