@@ -1,6 +1,6 @@
 # 📊 Portfólio de Data Science — Gutemberg Rapôso
 
-[![Currently Learning](https://img.shields.io/badge/🔬_Currently_Learning-File_I%2FO_with_Pandas_%28CSV%2C_JSON%2C_Excel%29-blue)](./01_python_basics/)
+[![Currently Learning](https://img.shields.io/badge/🔬_Currently_Learning-Python_OOP_for_Data_Science-blue)](./01_python_basics/2026-10-20_python_oop_for_ds.ipynb)
 [![Open to Work](https://img.shields.io/badge/💼_Open_to-Remote_Opportunities-green)](https://github.com/Gutembergfox)
 [![Junior → Senior](https://img.shields.io/badge/Positioning-Junior_→_Senior_Data_Scientist-orange)](https://github.com/Gutembergfox)
 
@@ -11,7 +11,7 @@ Cientista de Dados com uma formação singular em **Linguística e Sociolinguís
 210 dias, de **Junior a Senior Data Scientist**, construindo um portfólio abrangente com datasets
 reais e código pronto para produção.
 
-📍 Palmas-TO, Brasil | 🌐 **Junior → Senior Data Scientist | Aberto a Oportunidades Remotas**
+📍 Palmas-TO, Brasil | 🌐 **Junior → Senior Data Scientist | Open to Remote Opportunities**
 
 ## 🎯 Proposta de Valor Única
 
@@ -22,29 +22,29 @@ reais e código pronto para produção.
 
 | Fase | Tema | Dias | Status | Dias Concluídos |
 |------|------|------|--------|-----------------|
-| Fase 1 | Python Basics | 1-28 | 🟡 Em andamento | **6/28** |
-| Fase 2 | Análise Exploratória (EDA) | 29-56 | ⬜ A iniciar | 0 |
-| Fase 3 | Estatística | 57-84 | ⬜ A iniciar | 0 |
-| Fase 4 | Machine Learning | 85-126 | ⬜ A iniciar | 0 |
-| Fase 5 | Advanced ML | 127-168 | ⬜ A iniciar | 0 |
-| Fase 6 | PLN & Séries Temporais | 169-210 | ⬜ A iniciar | 0 |
-| Fase 7 | Projetos Avançados | 211+ | ⬜ A iniciar | 0 |
+| Fase 1 | Python Basics | 1-28 | 🟡 Em andamento | **7/28** |
+| Fase 2 | Análise Exploratória (EDA) | 29-56 | ⬜ A iniciar | 0/28 |
+| Fase 3 | Estatística | 57-84 | ⬜ A iniciar | 0/28 |
+| Fase 4 | Machine Learning | 85-126 | ⬜ A iniciar | 0/42 |
+| Fase 5 | Advanced ML | 127-168 | ⬜ A iniciar | 0/42 |
+| Fase 6 | PLN & Séries Temporais | 169-210 | ⬜ A iniciar | 0/42 |
+| Fase 7 | Projetos Avançados | 211+ | ⬜ A iniciar | 0/28 |
 
-**Progresso geral:** 6 dias concluídos 🚀 · 🔬 *Currently Learning: File I/O with Pandas (CSV, JSON, Excel)*
+**Progresso geral:** 7 dias concluídos 🚀 · 🔬 *Currently Learning: Python OOP for Data Science*
 
 ## 📚 5 Notebooks Mais Recentes
 
-1. [Dia 6 — File I/O com Pandas (CSV, JSON, Excel)](01_python_basics/2026-10-19_file_io_pandas.ipynb) — `read_csv`/`to_csv`, JSON aninhado com `pd.json_normalize`, Excel multi-abas com `openpyxl`, encoding, `dtype`, `chunksize` e mini pipeline ETL multi-formato
-2. [Dia 5 — String Manipulation & Regex para PLN](01_python_basics/2026-10-18_string_manipulation_regex.ipynb) — Métodos de string, módulo `re` (grupos nomeados, lookarounds), `pandas .str` e análise de um corpus de frases de inglês CEFR A1–C2
-3. [Dia 4 — Funções & Comprehensions](01_python_basics/2026-09-20_python_functions_comprehensions.ipynb) — Lambda, map/filter/reduce, comprehensions, generators, `functools` e PLN aplicado a texto
-4. [Dia 3 — Matplotlib & Seaborn](01_python_basics/2026-09-19_matplotlib_seaborn.ipynb) — Visualização de dados: figuras, gráficos estatísticos e customização
-5. [Dia 2 — NumPy Fundamentals](01_python_basics/2026-09-18_numpy_fundamentals.ipynb) — Arrays, broadcasting e álgebra linear
+1. [Dia 7 — POO (OOP) para Data Science](01_python_basics/2026-10-20_python_oop_for_ds.ipynb) — Classes, `@property`, herança com ABC, polimorfismo, `@dataclass(frozen=True)`, transformer customizado no contrato sklearn (`ReadabilityScorer` — Flesch Reading Ease) e composição em um `NLPPipeline` aplicado a clássicos de domínio público
+2. [Dia 6 — File I/O com Pandas (CSV, JSON, Excel)](01_python_basics/2026-10-19_file_io_pandas.ipynb) — `read_csv`/`to_csv`, JSON aninhado com `pd.json_normalize`, Excel multi-abas com `openpyxl`, encoding, `dtype`, `chunksize` e mini pipeline ETL multi-formato
+3. [Dia 5 — String Manipulation & Regex para PLN](01_python_basics/2026-10-18_string_manipulation_regex.ipynb) — Métodos de string, módulo `re` (grupos nomeados, lookarounds), `pandas .str` e análise de um corpus de frases de inglês CEFR A1–C2
+4. [Dia 4 — Funções & Comprehensions](01_python_basics/2026-09-20_python_functions_comprehensions.ipynb) — Lambda, map/filter/reduce, comprehensions, generators, `functools` e PLN aplicado a texto
+5. [Dia 3 — Matplotlib & Seaborn](01_python_basics/2026-09-19_matplotlib_seaborn.ipynb) — Visualização de dados: figuras, gráficos estatísticos e customização
 
 ## 📁 Estrutura do Repositório
 
 | Pasta | Fase | Tópicos |
 |-------|------|---------|
-| [01_python_basics/](./01_python_basics/) | Fase 1 | Python, NumPy, Pandas, Matplotlib & Seaborn, Strings & Regex, File I/O |
+| [01_python_basics/](./01_python_basics/) | Fase 1 | Python, NumPy, Pandas, Matplotlib & Seaborn, Strings & Regex, File I/O, POO |
 | [02_eda/](./02_eda/) | Fase 2 | Análise Exploratória de Dados, Visualização |
 | [03_statistics/](./03_statistics/) | Fase 3 | Probabilidade, Testes de Hipótese, Distribuições |
 | [04_machine_learning/](./04_machine_learning/) | Fase 4 | Aprendizado Supervisionado & Não Supervisionado |
@@ -63,6 +63,8 @@ Minha formação em **Linguística e Sociolinguística** me dá uma perspectiva 
   textual e padrões gramaticais por nível CEFR, no [Dia 5](01_python_basics/2026-10-18_string_manipulation_regex.ipynb)).
 - **Ingestão de dados educacionais** — corpora em JSON Lines, planilhas de professores e encoding
   correto para textos acentuados (ex.: pipeline ETL multi-formato no [Dia 6](01_python_basics/2026-10-19_file_io_pandas.ipynb)).
+- **Legibilidade de textos didáticos** — métricas como Flesch Reading Ease encapsuladas em transformers
+  compatíveis com scikit-learn para apoiar a escolha de textos por nível (ex.: [Dia 7](01_python_basics/2026-10-20_python_oop_for_ds.ipynb)).
 - **IA centrada no humano** — projetar sistemas de PLN que respeitam a diversidade linguística.
 
 Essa combinação de **Linguística + Data Science + PLN aplicado à educação** é o fio condutor que
