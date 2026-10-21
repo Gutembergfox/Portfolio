@@ -1,0 +1,5 @@
+year,day_type,days,mean_daily_rentals,mean_casual,mean_registered,casual_share_pct
+2011,weekend/holiday,115,3363.82,1120.85,2242.97,33.32
+2011,working day,250,3425.06,473.42,2951.64,13.82
+2012,weekend/holiday,116,5288.19,1619.26,3668.93,30.62
+2012,working day,250,5744.58,739.72,5004.86,12.88

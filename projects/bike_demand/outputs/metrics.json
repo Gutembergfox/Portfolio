@@ -1,0 +1,22 @@
+{
+  "rows": 731,
+  "date_start": "2011-01-01",
+  "date_end": "2012-12-31",
+  "annual": [
+    {
+      "year": 2011,
+      "days": 365,
+      "rentals": 1243103,
+      "mean_daily_rentals": 3405.76,
+      "casual_share_pct": 19.89
+    },
+    {
+      "year": 2012,
+      "days": 366,
+      "rentals": 2049576,
+      "mean_daily_rentals": 5599.93,
+      "casual_share_pct": 18.19
+    }
+  ],
+  "mean_daily_growth_pct": 64.43
+}

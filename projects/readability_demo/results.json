@@ -1,0 +1,18 @@
+[
+  {
+    "id": "short_sentences",
+    "word_count": 27,
+    "sentence_count": 4,
+    "estimated_syllables": 30,
+    "lexical_diversity": 0.8519,
+    "estimated_flesch_reading_ease": 105.98
+  },
+  {
+    "id": "long_sentence",
+    "word_count": 32,
+    "sentence_count": 1,
+    "estimated_syllables": 74,
+    "lexical_diversity": 0.9688,
+    "estimated_flesch_reading_ease": -21.28
+  }
+]

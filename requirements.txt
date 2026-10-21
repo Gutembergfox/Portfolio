@@ -1,0 +1,3 @@
+-c requirements-lock.txt
+# Dependencies for projects/bike_demand; readability_demo and unit tests use the standard library.
+matplotlib==3.11.2
