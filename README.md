@@ -1,90 +1,49 @@
-# 📊 Portfólio de Data Science — Gutemberg Rapôso
+# Gutemberg Rapôso — Data, Language & NLP
 
-[![Currently Learning](https://img.shields.io/badge/🔬_Currently_Learning-Plotly_—_Interactive_Data_Visualization-blue)](./01_python_basics/2026-10-21_plotly_interactive_viz.ipynb)
-[![Open to Work](https://img.shields.io/badge/💼_Open_to-Remote_Opportunities-green)](https://github.com/Gutembergfox)
-[![Junior → Senior](https://img.shields.io/badge/Positioning-Junior_→_Senior_Data_Scientist-orange)](https://github.com/Gutembergfox)
+I am an English teacher and language researcher in Brazil, building practical skills in data analysis and natural language processing. I am a doctoral student at the Federal University of Tocantins (UFT) and completed my master's degree in Letras (language and literature studies) in December 2025.
 
-## 👋 Sobre Mim
+I am interested in international remote opportunities in entry-level data analysis/data science, language-focused AI projects, and Portuguese–English linguistic services. This repository shows my learning process and selected demonstrations; it does not represent senior-level or production-validated experience.
 
-Cientista de Dados com uma formação singular em **Linguística e Sociolinguística**, especializado em
-**PLN (NLP) aplicado à educação e ao ensino de língua inglesa**. Estou em uma jornada estruturada de
-210 dias, de **Junior a Senior Data Scientist**, construindo um portfólio abrangente com datasets
-reais e código pronto para produção.
+## Start with these three demonstrations
 
-📍 Palmas-TO, Brasil | 🌐 **Junior → Senior Data Scientist | Open to Remote Opportunities**
+| Sample | What you can inspect | Evidence and limits |
+| --- | --- | --- |
+| [English text readability](portfolio_showcase/01_data_science.md) | Python text analysis, reusable components and interpretation | Educational prototype; the case study audits saved notebook outputs, not a new benchmark. |
+| [Tino: context-aware NLP](portfolio_showcase/02_tino_nlp.md) | Register-sensitive feedback, sociolinguistic reasoning and a FastAPI application | LLM-backed prototype; no measured model accuracy or educational efficacy is claimed. |
+| [Academic editing & PT–EN translation](portfolio_showcase/03_academic_editing_pt_en.md) | Before/after editing, translation and explained terminology choices | Original fictional, AI-assisted demonstration, not client work or proof of unaided performance. |
 
-## 🎯 Proposta de Valor Única
+[Browse all selected work](portfolio_showcase/) · [Tino source](https://github.com/Gutembergfox/tino) · [Tradutor Pro workflow](https://github.com/Gutembergfox/tradutor-pro)
 
-> **Linguística + Data Science + PLN para Educação** — uma combinação rara que permite compreensão
-> profunda de dados de linguagem, corpora educacionais e aplicações de IA centradas no ser humano.
+## Background and direction
 
-## 📈 Progresso por Fase
+My background in language teaching and sociolinguistics informs my interest in text analysis, register variation, language-data quality and clear academic communication. I am developing Python, pandas, NumPy and visualization skills through the exercises here. Technical proficiency should be assessed from the code and reproducible evidence, not inferred from a list of tools or AI-assisted output.
 
-| Fase | Tema | Dias | Status | Dias Concluídos |
-|------|------|------|--------|-----------------|
-| Fase 1 | Python Basics | 1-28 | 🟡 Em andamento | **8/28** |
-| Fase 2 | Análise Exploratória (EDA) | 29-56 | ⬜ A iniciar | 0/28 |
-| Fase 3 | Estatística | 57-84 | ⬜ A iniciar | 0/28 |
-| Fase 4 | Machine Learning | 85-126 | ⬜ A iniciar | 0/42 |
-| Fase 5 | Advanced ML | 127-168 | ⬜ A iniciar | 0/42 |
-| Fase 6 | PLN & Séries Temporais | 169-210 | ⬜ A iniciar | 0/42 |
-| Fase 7 | Projetos Avançados | 211+ | ⬜ A iniciar | 0/28 |
+For PT/EN language work, the portfolio includes an academic editing and translation sample with explicit scope and limitations. I welcome conversations about remote research support, language-focused AI evaluation and appropriately scoped data projects.
 
-**Progresso geral:** 8 dias concluídos 🚀 · 🔬 *Currently Learning: Plotly — Interactive Data Visualization*
+## Learning archive
 
-## 📚 5 Notebooks Mais Recentes
+The existing notebooks and directory structure are preserved. As inspected on 21 October 2026, the archive contains eight Python-fundamentals notebooks and an additional `Módulo_2.ipynb`. The later phase directories contain placeholders, not completed advanced projects.
 
-1. [Dia 8 — Plotly: Visualização Interativa](01_python_basics/2026-10-21_plotly_interactive_viz.ipynb) — Plotly Express vs Graph Objects, scatter animado do Gapminder, line/bar/histogram, box/violin, heatmaps, `make_subplots`, temas e `write_html`; aplicação com índice saúde-renda inspirado no IDH (contexto educacional) e analogia espécies de íris ↔ variedades linguísticas
-2. [Dia 7 — POO (OOP) para Data Science](01_python_basics/2026-10-20_python_oop_for_ds.ipynb) — Classes, `@property`, herança com ABC, polimorfismo, `@dataclass(frozen=True)`, transformer customizado no contrato sklearn (`ReadabilityScorer` — Flesch Reading Ease) e composição em um `NLPPipeline` aplicado a clássicos de domínio público
-3. [Dia 6 — File I/O com Pandas (CSV, JSON, Excel)](01_python_basics/2026-10-19_file_io_pandas.ipynb) — `read_csv`/`to_csv`, JSON aninhado com `pd.json_normalize`, Excel multi-abas com `openpyxl`, encoding, `dtype`, `chunksize` e mini pipeline ETL multi-formato
-4. [Dia 5 — String Manipulation & Regex para PLN](01_python_basics/2026-10-18_string_manipulation_regex.ipynb) — Métodos de string, módulo `re` (grupos nomeados, lookarounds), `pandas .str` e análise de um corpus de frases de inglês CEFR A1–C2
-5. [Dia 4 — Funções & Comprehensions](01_python_basics/2026-09-20_python_functions_comprehensions.ipynb) — Lambda, map/filter/reduce, comprehensions, generators, `functools` e PLN aplicado a texto
+| Directory | Current status |
+| --- | --- |
+| [01_python_basics](01_python_basics/) | Eight learning notebooks: pandas, NumPy, visualization, functions, strings/regex, file I/O and OOP. |
+| [Módulo_2.ipynb](Módulo_2.ipynb) | Additional historical notebook. |
+| [02_eda](02_eda/), [03_statistics](03_statistics/) | Planned study phases; placeholders. |
+| [04_machine_learning](04_machine_learning/), [05_advanced_ml](05_advanced_ml/) | Planned study phases; placeholders. |
+| [06_nlp_timeseries](06_nlp_timeseries/), [07_advanced_projects](07_advanced_projects/) | Planned study phases; placeholders. |
 
-## 📁 Estrutura do Repositório
+The former 210-day schedule was a personal study plan, not a promise of progressing from junior to senior or a claim that the code was production-ready. The [original README is preserved as a dated historical record](docs/archive/README-2026-10-21.md).
 
-| Pasta | Fase | Tópicos |
-|-------|------|---------|
-| [01_python_basics/](./01_python_basics/) | Fase 1 | Python, NumPy, Pandas, Matplotlib & Seaborn, Plotly, Strings & Regex, File I/O, POO |
-| [02_eda/](./02_eda/) | Fase 2 | Análise Exploratória de Dados, Visualização |
-| [03_statistics/](./03_statistics/) | Fase 3 | Probabilidade, Testes de Hipótese, Distribuições |
-| [04_machine_learning/](./04_machine_learning/) | Fase 4 | Aprendizado Supervisionado & Não Supervisionado |
-| [05_advanced_ml/](./05_advanced_ml/) | Fase 5 | Métodos de Ensemble, Feature Engineering |
-| [06_nlp_timeseries/](./06_nlp_timeseries/) | Fase 6 | PLN, Processamento de Texto, Séries Temporais |
-| [07_advanced_projects/](./07_advanced_projects/) | Fase 7 | Projetos End-to-End, Deploy |
+The historical readability notebook includes literary excerpts whose provenance and reuse rights require further checking. Its outputs should not be treated as validated reading levels or learner outcomes. No license is granted here for third-party material.
 
-## 🔬 Diferencial: Linguística × Data Science × PLN
+## Reproducibility and transparency
 
-Minha formação em **Linguística e Sociolinguística** me dá uma perspectiva única sobre:
+The historical notebooks have not all been re-executed in a single verified environment. Their stored outputs are evidence of the saved exercises, not a guarantee that every notebook currently runs unchanged. See each demonstration for its sources, assumptions and validation gaps.
 
-- **Pré-processamento de dados textuais** — compreender morfologia, sintaxe e semântica muito além da
-  simples tokenização.
-- **PLN Educacional** — construir ferramentas para aprendizagem e ensino de línguas.
-- **Análise de corpora** — aplicar métodos estatísticos a corpora linguísticos (ex.: complexidade
-  textual e padrões gramaticais por nível CEFR, no [Dia 5](01_python_basics/2026-10-18_string_manipulation_regex.ipynb)).
-- **Ingestão de dados educacionais** — corpora em JSON Lines, planilhas de professores e encoding
-  correto para textos acentuados (ex.: pipeline ETL multi-formato no [Dia 6](01_python_basics/2026-10-19_file_io_pandas.ipynb)).
-- **Legibilidade de textos didáticos** — métricas como Flesch Reading Ease encapsuladas em transformers
-  compatíveis com scikit-learn para apoiar a escolha de textos por nível (ex.: [Dia 7](01_python_basics/2026-10-20_python_oop_for_ds.ipynb)).
-- **Visualização interativa para educadores** — dashboards em Plotly que permitem explorar dados de
-  contexto educacional e o espaço de traços de variedades linguísticas (ex.: [Dia 8](01_python_basics/2026-10-21_plotly_interactive_viz.ipynb)).
-- **IA centrada no humano** — projetar sistemas de PLN que respeitam a diversidade linguística.
+AI assistance was used to prepare the selected-work documentation and this presentation, with factual claims checked against the public repository and the background supplied by the author. AI-assisted artifacts do not establish independent professional experience or unaided skill.
 
-Essa combinação de **Linguística + Data Science + PLN aplicado à educação** é o fio condutor que
-conecta todos os projetos deste portfólio.
+## Contact
 
-## 🛠️ Tech Stack
+[LinkedIn — Gutemberg Rapôso](https://www.linkedin.com/in/gutemberg-raposo-a8aa1937b/) · [GitHub](https://github.com/Gutembergfox)
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
-![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat&logo=numpy&logoColor=white)
-![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat&logo=pandas&logoColor=white)
-![Matplotlib](https://img.shields.io/badge/Matplotlib-11557C?style=flat&logo=python&logoColor=white)
-![Seaborn](https://img.shields.io/badge/Seaborn-4C72B0?style=flat&logo=python&logoColor=white)
-![Plotly](https://img.shields.io/badge/Plotly-3F4F75?style=flat&logo=plotly&logoColor=white)
-![Scikit-learn](https://img.shields.io/badge/Scikit--learn-F7931E?style=flat&logo=scikit-learn&logoColor=white)
-![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=flat&logo=jupyter&logoColor=white)
-
-## 📬 Contato
-
-- 📧 gtmbrgfox@gmail.com
-- 🐙 [GitHub](https://github.com/Gutembergfox)
-- 📍 Palmas-TO, Brasil | Aberto a Trabalho Remoto
+Based in Brazil; open to international remote opportunities.
