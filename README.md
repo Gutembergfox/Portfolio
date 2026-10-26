@@ -1,8 +1,8 @@
 # Gutemberg Rapôso — Data, Language & NLP
 
-![Currently Learning](https://img.shields.io/badge/%F0%9F%94%AC%20Currently%20Learning-itertools%20%26%20functools%20%E2%80%94%20Efficient%20Data%20Pipelines-blue)
+![Currently Learning](https://img.shields.io/badge/%F0%9F%94%AC%20Currently%20Learning-Python%20Typing%20%26%20Type%20Hints%20for%20DS-blue)
 
-🔬 Currently Learning: itertools & functools — Efficient Data Pipelines
+🔬 Currently Learning: Python Typing & Type Hints for DS
 
 **Junior → Senior Data Scientist | Open to Remote Opportunities**
 
@@ -11,7 +11,7 @@ Learning path — a long-term development goal, not a claim of current seniority
 ### Unique background: Linguística + Data Science + NLP aplicado à educação
 
 - **Linguística:** sociolinguistics, register variation and language-teaching experience shape how I clean, tokenize and interpret text.
-- **Data Science:** Python, pandas, NumPy, visualization, automated testing with pytest (Day 10), decorators and context managers (Day 11) and — as of Day 12 — `itertools`/`functools` for lazy, memory-efficient data and text pipelines.
+- **Data Science:** Python, pandas, NumPy, visualization, automated testing with pytest (Day 10), decorators and context managers (Day 11), `itertools`/`functools` for lazy, memory-efficient pipelines (Day 12) and — as of Day 13 — the `typing` module and type hints (`Protocol`, `TypedDict`, `Literal`, generics, `mypy`) for clearer, checkable DS/ML code.
 - **NLP aplicado à educação:** text-difficulty profiling, vocabulary-level heuristics and feedback tools for English learners.
 
 I am an English teacher and language researcher in Brazil, building practical skills in data analysis and natural language processing. I am a doctoral student at the Federal University of Tocantins (UFT) and completed my master's degree in Letras (language and literature studies) in December 2025.
@@ -45,7 +45,7 @@ For PT/EN language work, the portfolio includes an academic editing and translat
 
 | Phase | Folder | Days completed | Status |
 | --- | --- | --- | --- |
-| 1 — Python basics | [01_python_basics](01_python_basics/) | **12 / 28** | 🟢 In progress |
+| 1 — Python basics | [01_python_basics](01_python_basics/) | **13 / 28** | 🟢 In progress |
 | 2 — Exploratory data analysis | [02_eda](02_eda/) | 0 / 28 | ⚪ Planned |
 | 3 — Statistics | [03_statistics](03_statistics/) | 0 / 28 | ⚪ Planned |
 | 4 — Machine learning | [04_machine_learning](04_machine_learning/) | 0 / 42 | ⚪ Planned |
@@ -55,19 +55,19 @@ For PT/EN language work, the portfolio includes an academic editing and translat
 
 ### Five most recent notebooks
 
-1. **Day 12** — [2026-10-25 — itertools & functools — Efficient Data Pipelines](01_python_basics/2026-10-25_itertools_functools.ipynb) (infinite, finite and combinatorial iterators, `partial`, `reduce`, `lru_cache`, `total_ordering`; a lexical-profile pipeline on the NLTK Brown Corpus using frequency bands as a CEFR-inspired proxy — not official CEFR levels; functional pipelines on seaborn titanic/penguins and scikit-learn wine/diabetes; memory and speed comparisons with `sys.getsizeof` and `timeit`)
-2. **Day 11** — [2026-10-24 — Decorators & context managers for DS](01_python_basics/2026-10-24_decorators_context_managers.ipynb) (`@timer`, `@log_call`, `@validate_dataframe`, `@retry`, `lru_cache`, class-based and `contextlib` context managers, atomic writes, sqlite3 transactions; applied to seaborn tips/titanic/iris/penguins and a vocabulary analysis of scikit-learn dataset descriptions)
-3. **Day 10** — [2026-10-23 — pytest for data science](01_python_basics/2026-10-23_pytest_for_ds.ipynb) (unit tests, fixtures, parametrize, conftest.py and pytest-cov for NLP text-processing functions, on NLTK Gutenberg/stopwords and scikit-learn 20 Newsgroups)
-4. **Day 9** — [2026-10-22 — Datetime & date manipulation with pandas](01_python_basics/2026-10-22_datetime_pandas.ipynb) (synthetic English-learning progress on a real 2026 school calendar)
-5. **Day 8** — [2026-10-21 — Plotly interactive visualization](01_python_basics/2026-10-21_plotly_interactive_viz.ipynb)
+1. **Day 13** — [2026-10-26 — Python typing & type hints for DS](01_python_basics/2026-10-26_typing_type_hints_ds.ipynb) (basic annotations, built-in generics, `X | None`, PEP 695 `type` aliases and `class Pipeline[T]`, `NewType`, sklearn-style `Protocol`s, `TypedDict`, `Callable`, `Literal` + `assert_never`, typed dataclasses, runtime validation with `beartype`, a real `mypy` run; a typed lexical-profile pipeline on the NLTK Brown Corpus with CEFR-inspired frequency bands — a heuristic, not official CEFR levels; typed scikit-learn experiments on iris/wine and 20 Newsgroups)
+2. **Day 12** — [2026-10-25 — itertools & functools — Efficient Data Pipelines](01_python_basics/2026-10-25_itertools_functools.ipynb) (infinite, finite and combinatorial iterators, `partial`, `reduce`, `lru_cache`, `total_ordering`; a lexical-profile pipeline on the NLTK Brown Corpus using frequency bands as a CEFR-inspired proxy — not official CEFR levels; functional pipelines on seaborn titanic/penguins and scikit-learn wine/diabetes; memory and speed comparisons with `sys.getsizeof` and `timeit`)
+3. **Day 11** — [2026-10-24 — Decorators & context managers for DS](01_python_basics/2026-10-24_decorators_context_managers.ipynb) (`@timer`, `@log_call`, `@validate_dataframe`, `@retry`, `lru_cache`, class-based and `contextlib` context managers, atomic writes, sqlite3 transactions; applied to seaborn tips/titanic/iris/penguins and a vocabulary analysis of scikit-learn dataset descriptions)
+4. **Day 10** — [2026-10-23 — pytest for data science](01_python_basics/2026-10-23_pytest_for_ds.ipynb) (unit tests, fixtures, parametrize, conftest.py and pytest-cov for NLP text-processing functions, on NLTK Gutenberg/stopwords and scikit-learn 20 Newsgroups)
+5. **Day 9** — [2026-10-22 — Datetime & date manipulation with pandas](01_python_basics/2026-10-22_datetime_pandas.ipynb) (synthetic English-learning progress on a real 2026 school calendar)
 
 ## Learning archive
 
-The existing notebooks and directory structure are preserved. As of 25 October 2026, the archive contains twelve Python-fundamentals notebooks and an additional `Módulo_2.ipynb`. The later phase directories contain placeholders, not completed advanced projects.
+The existing notebooks and directory structure are preserved. As of 26 October 2026, the archive contains thirteen Python-fundamentals notebooks and an additional `Módulo_2.ipynb`. The later phase directories contain placeholders, not completed advanced projects.
 
 | Directory | Current status |
 | --- | --- |
-| [01_python_basics](01_python_basics/) | Twelve learning notebooks: pandas, NumPy, visualization (Matplotlib/Seaborn, Plotly), functions, strings/regex, file I/O, OOP, datetime/pandas, pytest, decorators/context managers, and itertools/functools for data science. |
+| [01_python_basics](01_python_basics/) | Thirteen learning notebooks: pandas, NumPy, visualization (Matplotlib/Seaborn, Plotly), functions, strings/regex, file I/O, OOP, datetime/pandas, pytest, decorators/context managers, itertools/functools, and typing/type hints for data science. |
 | [Módulo_2.ipynb](Módulo_2.ipynb) | Additional historical notebook. |
 | [02_eda](02_eda/), [03_statistics](03_statistics/) | Planned study phases; placeholders. |
 | [04_machine_learning](04_machine_learning/), [05_advanced_ml](05_advanced_ml/) | Planned study phases; placeholders. |
