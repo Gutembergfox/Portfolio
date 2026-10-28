@@ -1,8 +1,8 @@
 # Gutemberg Rapôso — Data, Language & NLP
 
-![Currently Learning](https://img.shields.io/badge/%F0%9F%94%AC%20Currently%20Learning-Python%20Concurrency%20%26%20Parallel%20Pipelines-blue)
+![Currently Learning](https://img.shields.io/badge/%F0%9F%94%AC%20Currently%20Learning-Python%20Environment%20Management-blue)
 
-🔬 Currently Learning: Python Concurrency & Parallel Pipelines
+🔬 Currently Learning: Python Environment Management
 
 **Junior → Senior Data Scientist | Open to Remote Opportunities**
 
@@ -11,7 +11,7 @@ Learning path — a long-term development goal, not a claim of current seniority
 ### Unique background: Linguística + Data Science + NLP aplicado à educação
 
 - **Linguística:** sociolinguistics, register variation and language-teaching experience shape how I clean, tokenize and interpret text.
-- **Data Science:** Python, pandas, NumPy, visualization, automated testing with pytest (Day 10), decorators and context managers (Day 11), `itertools`/`functools` for lazy, memory-efficient pipelines (Day 12) the `typing` module and type hints (Day 13) and — as of Day 14 — concurrency with `threading`, `multiprocessing`, `concurrent.futures` and `joblib` for parallel data pipelines.
+- **Data Science:** Python, pandas, NumPy, visualization, automated testing with pytest (Day 10), decorators and context managers (Day 11), `itertools`/`functools` for lazy, memory-efficient pipelines (Day 12) the `typing` module and type hints (Day 13), concurrency with `threading`, `multiprocessing`, `concurrent.futures` and `joblib` for parallel data pipelines (Day 14) and — as of Day 15 — reproducible environments with `venv`, `pip`/`pip-tools`, `conda`, `uv` and `pyproject.toml`.
 - **NLP aplicado à educação:** text-difficulty profiling, vocabulary-level heuristics and feedback tools for English learners.
 
 I am an English teacher and language researcher in Brazil, building practical skills in data analysis and natural language processing. I am a doctoral student at the Federal University of Tocantins (UFT) and completed my master's degree in Letras (language and literature studies) in December 2025.
@@ -45,7 +45,7 @@ For PT/EN language work, the portfolio includes an academic editing and translat
 
 | Phase | Folder | Days completed | Status |
 | --- | --- | --- | --- |
-| 1 — Python basics | [01_python_basics](01_python_basics/) | **14 / 28** | 🟢 In progress |
+| 1 — Python basics | [01_python_basics](01_python_basics/) | **15 / 28** | 🟢 In progress |
 | 2 — Exploratory data analysis | [02_eda](02_eda/) | 0 / 28 | ⚪ Planned |
 | 3 — Statistics | [03_statistics](03_statistics/) | 0 / 28 | ⚪ Planned |
 | 4 — Machine learning | [04_machine_learning](04_machine_learning/) | 0 / 42 | ⚪ Planned |
@@ -55,19 +55,19 @@ For PT/EN language work, the portfolio includes an academic editing and translat
 
 ### Five most recent notebooks
 
-1. **Day 14** — [2026-10-27 — Python concurrency for DS: parallel pipelines](01_python_basics/2026-10-27_concurrency_parallel_pipelines.ipynb) (the GIL demonstrated with threads vs processes, `threading.Thread`/`Lock` and `ThreadPoolExecutor` for I/O-bound loading, `multiprocessing.Pool`/`ProcessPoolExecutor` for chunked feature engineering on seaborn titanic/penguins, `joblib.Parallel` + `delayed` for feature transforms and cross-validation on iris/wine/breast_cancer, a timed benchmark with `time.perf_counter`, parallel lexical-complexity profiling of the NLTK Brown Corpus by genre and 20 Newsgroups, and a parallel ETL across seven public datasets; timings are machine-dependent)
-2. **Day 13** — [2026-10-26 — Python typing & type hints for DS](01_python_basics/2026-10-26_typing_type_hints_ds.ipynb) (basic annotations, built-in generics, `X | None`, PEP 695 `type` aliases and `class Pipeline[T]`, `NewType`, sklearn-style `Protocol`s, `TypedDict`, `Callable`, `Literal` + `assert_never`, typed dataclasses, runtime validation with `beartype`, a real `mypy` run; a typed lexical-profile pipeline on the NLTK Brown Corpus with CEFR-inspired frequency bands — a heuristic, not official CEFR levels; typed scikit-learn experiments on iris/wine and 20 Newsgroups)
-3. **Day 12** — [2026-10-25 — itertools & functools — Efficient Data Pipelines](01_python_basics/2026-10-25_itertools_functools.ipynb) (infinite, finite and combinatorial iterators, `partial`, `reduce`, `lru_cache`, `total_ordering`; a lexical-profile pipeline on the NLTK Brown Corpus using frequency bands as a CEFR-inspired proxy — not official CEFR levels; functional pipelines on seaborn titanic/penguins and scikit-learn wine/diabetes; memory and speed comparisons with `sys.getsizeof` and `timeit`)
-4. **Day 11** — [2026-10-24 — Decorators & context managers for DS](01_python_basics/2026-10-24_decorators_context_managers.ipynb) (`@timer`, `@log_call`, `@validate_dataframe`, `@retry`, `lru_cache`, class-based and `contextlib` context managers, atomic writes, sqlite3 transactions; applied to seaborn tips/titanic/iris/penguins and a vocabulary analysis of scikit-learn dataset descriptions)
-5. **Day 10** — [2026-10-23 — pytest for data science](01_python_basics/2026-10-23_pytest_for_ds.ipynb) (unit tests, fixtures, parametrize, conftest.py and pytest-cov for NLP text-processing functions, on NLTK Gutenberg/stopwords and scikit-learn 20 Newsgroups)
+1. **Day 15** — [2026-10-28 — Python environment management for DS](01_python_basics/2026-10-28_environment_management.ipynb) (the dependency problem shown with real `importlib.metadata` dependency graphs, a real `venv` and `uv venv` created in a temporary folder and inspected, `pip`/`pip check`/`pip freeze` vs. `pip-tools`, `conda` and `environment.yml`, the `uv` project workflow and `uv.lock`, a `pyproject.toml` with extras vs. PEP 735 dependency groups parsed with `tomllib`, `.gitignore` and prod/dev splits, a verified lock plus an environment fingerprint stored with a scikit-learn wine experiment, a pandas tool-comparison table, and a commented `requirements.txt` for an educational NLP project; install/conda/uv-project commands are shown as dry-runs, not executed)
+2. **Day 14** — [2026-10-27 — Python concurrency for DS: parallel pipelines](01_python_basics/2026-10-27_concurrency_parallel_pipelines.ipynb) (the GIL demonstrated with threads vs processes, `threading.Thread`/`Lock` and `ThreadPoolExecutor` for I/O-bound loading, `multiprocessing.Pool`/`ProcessPoolExecutor` for chunked feature engineering on seaborn titanic/penguins, `joblib.Parallel` + `delayed` for feature transforms and cross-validation on iris/wine/breast_cancer, a timed benchmark with `time.perf_counter`, parallel lexical-complexity profiling of the NLTK Brown Corpus by genre and 20 Newsgroups, and a parallel ETL across seven public datasets; timings are machine-dependent)
+3. **Day 13** — [2026-10-26 — Python typing & type hints for DS](01_python_basics/2026-10-26_typing_type_hints_ds.ipynb) (basic annotations, built-in generics, `X | None`, PEP 695 `type` aliases and `class Pipeline[T]`, `NewType`, sklearn-style `Protocol`s, `TypedDict`, `Callable`, `Literal` + `assert_never`, typed dataclasses, runtime validation with `beartype`, a real `mypy` run; a typed lexical-profile pipeline on the NLTK Brown Corpus with CEFR-inspired frequency bands — a heuristic, not official CEFR levels; typed scikit-learn experiments on iris/wine and 20 Newsgroups)
+4. **Day 12** — [2026-10-25 — itertools & functools — Efficient Data Pipelines](01_python_basics/2026-10-25_itertools_functools.ipynb) (infinite, finite and combinatorial iterators, `partial`, `reduce`, `lru_cache`, `total_ordering`; a lexical-profile pipeline on the NLTK Brown Corpus using frequency bands as a CEFR-inspired proxy — not official CEFR levels; functional pipelines on seaborn titanic/penguins and scikit-learn wine/diabetes; memory and speed comparisons with `sys.getsizeof` and `timeit`)
+5. **Day 11** — [2026-10-24 — Decorators & context managers for DS](01_python_basics/2026-10-24_decorators_context_managers.ipynb) (`@timer`, `@log_call`, `@validate_dataframe`, `@retry`, `lru_cache`, class-based and `contextlib` context managers, atomic writes, sqlite3 transactions; applied to seaborn tips/titanic/iris/penguins and a vocabulary analysis of scikit-learn dataset descriptions)
 
 ## Learning archive
 
-The existing notebooks and directory structure are preserved. As of 27 October 2026, the archive contains fourteen Python-fundamentals notebooks and an additional `Módulo_2.ipynb`. The later phase directories contain placeholders, not completed advanced projects.
+The existing notebooks and directory structure are preserved. As of 28 October 2026, the archive contains fifteen Python-fundamentals notebooks and an additional `Módulo_2.ipynb`. The later phase directories contain placeholders, not completed advanced projects.
 
 | Directory | Current status |
 | --- | --- |
-| [01_python_basics](01_python_basics/) | Fourteen learning notebooks: pandas, NumPy, visualization (Matplotlib/Seaborn, Plotly), functions, strings/regex, file I/O, OOP, datetime/pandas, pytest, decorators/context managers, itertools/functools, typing/type hints, and concurrency/parallel pipelines for data science. |
+| [01_python_basics](01_python_basics/) | Fifteen learning notebooks: pandas, NumPy, visualization (Matplotlib/Seaborn, Plotly), functions, strings/regex, file I/O, OOP, datetime/pandas, pytest, decorators/context managers, itertools/functools, typing/type hints, concurrency/parallel pipelines, and environment management (venv, pip, conda, uv, pyproject.toml) for data science. |
 | [Módulo_2.ipynb](Módulo_2.ipynb) | Additional historical notebook. |
 | [02_eda](02_eda/), [03_statistics](03_statistics/) | Planned study phases; placeholders. |
 | [04_machine_learning](04_machine_learning/), [05_advanced_ml](05_advanced_ml/) | Planned study phases; placeholders. |
